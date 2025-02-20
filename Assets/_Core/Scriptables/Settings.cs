@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using System.Collections.Generic;
+using UnityEngine;
 
 namespace Giroo.Core.Scriptables
 {
@@ -6,5 +7,6 @@ namespace Giroo.Core.Scriptables
     public class Settings : ScriptableObject
     {
         public int test;
+        public List<Material> blockMaterials;
     }
 }

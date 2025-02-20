@@ -13,3 +13,9 @@ MonoBehaviour:
   m_Name: DefaultSettings
   m_EditorClassIdentifier: 
   test: 0
+  blockMaterials:
+  - {fileID: 2100000, guid: 164a5fc507d331745abfcecbce58f2d2, type: 2}
+  - {fileID: 2100000, guid: b3f5afd77f03ad742a4548359312bb23, type: 2}
+  - {fileID: 2100000, guid: 5a6c99e84b275ea488ec09187feac4af, type: 2}
+  - {fileID: 2100000, guid: 2368be9197e347942bf0c7c1525e5f48, type: 2}
+  - {fileID: 2100000, guid: d42222d4503aca14f8407a91ed987f37, type: 2}
