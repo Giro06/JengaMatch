@@ -10,7 +10,7 @@ namespace Giroo.Core.UI
         public TMP_Text levelText;
         public List<Image> stageImages;
 
-        public void OnEnable()
+        public void Start()
         {
             int currentLevel = Game.dataManager.GameData.level;
             levelText.text = "Level " + currentLevel;

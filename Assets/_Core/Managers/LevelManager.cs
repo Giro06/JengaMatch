@@ -30,6 +30,7 @@ namespace Giroo.Core
             if (_isTest)
             {
                 _gameManager.GameLoaded();
+                 
             }
             else
             {

@@ -10,6 +10,11 @@ namespace _Scripts
         {
             GetComponent<MeshRenderer>().material = material;
         }
+
+        public void Disolve()
+        {
+            Destroy(gameObject);
+        }
     }
 
     public enum BlockColor
